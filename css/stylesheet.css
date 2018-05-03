@@ -1,0 +1,101 @@
+body{
+    background-color: antiquewhite;
+}
+
+#one{
+    background-color: white;
+    position: absolute;
+    top: o;
+    left: 0;
+    width: 50%;
+    height: 200px;
+
+}
+
+div{
+    position: relative;
+    width: 85%;
+    border:1px solid black;
+    height:500px;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top:70px;
+}
+
+#two{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background-color: rgb(92, 43, 226);
+    width: 70%;
+    height: 300px;
+    z-index: 1;
+
+}
+
+#three{
+    height: 500px;
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 50%;
+    background-color: rgb(255, 255, 19);
+}
+
+#three p{
+    width: 100px;
+    float: left;
+    padding-left: 50px;
+}
+#three span{
+    color: blue;
+}
+
+#three article {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+#three article h3{
+    position: absolute;
+    bottom: 170px;
+    right: 110px;
+}
+article > p {
+    position: absolute;
+    bottom: 60px;
+    right: 90px;
+}
+
+#four{
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    background-color: orangered;
+    height: 200px;
+    width: 300px;
+    z-index: 2;
+}
+
+#five{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 50%;
+    background-color: white;
+    z-index:3;
+}
+
+#five h4{
+    text-align: center;
+    margin:auto;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two , .one {
+    float:left;
+    width:50%;
+    margin-left: 80px;
+    padding-top: 20px;
+}
